@@ -95,6 +95,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             }
             toastError = Toast.makeText(this, R.string.wrong_operation, duration);
             toastError.show();
+            return;
         }
     }
 }
