@@ -14,7 +14,6 @@ import android.widget.Toast;
 public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private EditText etNum1, etNum2, etOperation;
     private TextView tvResultText;
-    private Button btnCalculateResult;
 
     private Toast toastError;
 
@@ -26,7 +25,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         etNum2 = findViewById(R.id.num2_edit_text);
         etOperation = findViewById(R.id.operation_edit_text);
         tvResultText = findViewById(R.id.result_text_view);
-        btnCalculateResult = findViewById(R.id.calculate_result_button);
+        Button btnCalculateResult = findViewById(R.id.calculate_result_button);
         btnCalculateResult.setOnClickListener(this);
 
     }
